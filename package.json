@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-alexkrolick",
+  "version": "1.0.8",
+  "description": "ESLint configuration for frontend development",
+  "repository": "https://github.com/alexkrolick/eslint-config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Krolick",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.6.1",
+    "prettier": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.0.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true
+  }
+}
